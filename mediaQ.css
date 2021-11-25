@@ -1,0 +1,14 @@
+@media (min-width: 748px) {
+    .menu-icon {display: none;}
+    .s-hidden {display: block;}
+
+    .first-page {justify-content: center;}
+    .headline-wrapper {align-content: center;}
+    h1 {font-size: 50px;}
+    .subline-text {font-size: 25px;}
+    .m-l-no-break {display: none;}
+    .headline-wrapper {flex-direction: row; margin: 0; margin-top: 10rem; height: 20rem; width:100%; }
+    .logo {margin:0;}
+    .presentation-text-container {text-align: right;}
+    
+}
