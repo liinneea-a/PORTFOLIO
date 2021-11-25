@@ -7,7 +7,7 @@ function main() {
 }
 function addEventListeners() {
     const menuBtn = document.getElementById('menuIcon');
-    menuBtn.onclick = showDropDown;
+    menuBtn.addEventListener('click', showDropDown);
 }
 function showDropDown() {
     console.log('HI');
