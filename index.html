@@ -8,23 +8,48 @@
     <script defer src="js.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Libre+Baskerville:wght@400;700&family=Scheherazade+New&display=swap" rel="stylesheet">
+<title>Document</title>
 </head>
 <body class="outer-border flex j-c">
     <div class="wrapper">
+
         <header class="header flex j-flexend">
              <div class="l-header s-m-hidden nav-items-container">
             </div>
-            <span class="material-icons menu-icon">menu</span>
+                <span class="material-icons menu-icon">menu</span>
         </header>
+
         <div class="main-container">
-            <div class="first-page">
-                <div class="waves-svg"></div>
-                <div class="headline-wrapper">
+            <div class="drop-down-menu hidden flex column j-c a-c">
+                <ul class="drop-down-list grid">
+                    <li class="dd-menu-items"><a href="#">Home</a></li>
+                    <li class="dd-menu-items"><a href="#">About</a></li>
+                    <li class="dd-menu-items"><a href="#">Portfolio</a></li>
+                    <li class="dd-menu-items"><a href="#">Other Stuff</a></li>
+                    <li class="dd-menu-items"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="first-page flex a-c">
+                <!-- <div class="waves-container position-rel"> -->
+                    <div class="waves-svg position-abs"></div>
+                <!-- </div> -->
+
+
+                <div class="border headline-wrapper flex column a-c j-c">
+                    <div class="logo"></div>
+
                     <div class="presentation-text-container">
-                        <div class="headline-text"></div>
-                        <div class="subline-text"></div>
-                        <div class="logo"></div>
+
+                        <div class="border headline-text">
+                            <h1><span class="hi">Hi,</span><br> I'm Linnea Albertsson</h1>
+                        </div>
+
+                        <div class="subline-text">
+                            <p>I'm an aspiring web developer based in Gothenburg, Sweden</p>
+                        </div>
                     </div>
                 </div>
             </div>
