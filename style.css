@@ -49,11 +49,11 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    z-index: 100;
+    z-index: 90;
     background: black;
     opacity: 0.9;
     width: 100%;
-    height: 40rem;
+    height: 50rem;
 }
 .drop-down-list, a {
     list-style: none;
@@ -62,7 +62,7 @@ header {
     text-align: center;
 }
 .drop-down-list {
-    height: 100%;
+    height: 40rem;
     padding: 0;
 }
 .dd-menu-items {
@@ -71,6 +71,9 @@ header {
     align-items: center;
     font-size: 30px;
     letter-spacing: 3px;
+}
+#closeMenu {
+   
 }
 
 a:hover {
@@ -155,6 +158,9 @@ h1, p {
 }
 .hi {
     font-size: 40px;
+}
+.redcomma {
+    color: red;
 }
 
 /*-----REUSABLES------*/

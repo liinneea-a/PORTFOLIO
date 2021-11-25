@@ -7,8 +7,22 @@ function main() {
 }
 function addEventListeners() {
     const menuBtn = document.getElementById('menuIcon');
-    menuBtn.addEventListener('click', showDropDown);
+    const closeMenu = document.getElementById('closeMenu');
+    menuBtn.addEventListener('click', toggleDropdown);
+
 }
-function showDropDown() {
+
+function toggleDropdown() {
     console.log('HI');
+    const toggleMenu = document.getElementById('toggleMenu');
+    const openMenu = document.getElementById('openMenu');
+    const closeMenu = document.getElementById('closeMenu');
+    
+    toggleMenu.style.display = 'unset';
+
+    closeMenu.onclick = closeDropDown;
+}
+function closeDropDown() {
+    const toggleMenu = document.getElementById('toggleMenu');
+    toggleMenu.style.display = 'none';
 }
