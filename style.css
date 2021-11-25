@@ -136,8 +136,8 @@ a:hover {
 
 /*-----REUSABLES------*/ 
 .s-hidden {display: none;}
-.m-l-hidden {display: none;}
-.m-l-show {display: unset;}
+.m-l-hidden {display: unset;}
+.m-l-show {display:  none;}
 
 .flex {display: flex;}
 .column {flex-direction: column;}

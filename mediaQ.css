@@ -1,6 +1,8 @@
 @media (min-width: 748px) {
     .menu-icon {display: none;}
     .s-hidden {display: block;}
+    .m-l-show {display:  unset;}
+    .m-l-hidden {display: none;}
 
     .first-page {justify-content: center;}
     .headline-wrapper {align-content: center;}
