@@ -13,18 +13,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Libre+Baskerville:wght@400;700&family=Scheherazade+New&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="mediaQ.css">
 <title>Document</title>
 </head>
-<body class="outer-border flex j-c">
-    <div class="wrapper">
+<body class="outer-border flex column a-c">
+    <div id="wrapper" class="wrapper flex a-c column wrapper-height">
 
         <header class="header flex j-flexend">
-             <div class="l-header s-hidden nav-items-container">
+            <div class="l-header m-l-show nav-items-container flex j-c a-c">
+                <ul class="header-menu flex row j-space-bet">
+                    <li class="header-menu-items"><a href="#">Home</a></li>
+                    <li class="header-menu-items"><a href="#">About</a></li>
+                    <li class="header-menu-items"><a href="#">Portfolio</a></li>
+                    <li class="header-menu-items"><a href="#">Other stuff</a></li>
+                    <li class="header-menu-items"><a href="#">Contact</a></li>
+                    <!-- <span id="lightmodeBtn" class="material-icons light-mode-btn">wb_sunny</span>
+                    <span id="darkmodeBtn" class="material-icons dark-mode-btn">nightlight</span> -->
+                    <span id="toggleLightMode" class="material-icons toggle-lightmode">lightbulb</span>
+                </ul>
             </div> 
                 <div id="menuIcon" class="">
                     <span id="openMenu" class="material-icons menu-icon">menu</span>
-                    
                 </div>    
         </header>
 
@@ -42,13 +52,15 @@
             </div>
             <div class="first-page flex">
                 <!-- <div class="waves-container position-rel"> -->
-                    <div class="waves-svg position-abs m-l-hidden"></div>
-                    <div class="waves-bigscreen m-l-show position-abs"></div>
+                    <div class="waves-svg position-abs m-l-hidden pointer-ev-none"></div>
+                    <div class="waves-bigscreen m-l-show position-abs pointer-ev-none"></div>
                 <!-- </div> -->
 
 
-                <div class="border headline-wrapper flex column ">
-                    <div class="logo"></div>
+                <div id="wrapper" class="border headline-wrapper flex column ">
+                    
+                    <div class="logo flex"></div>
+                    <div class="divider s-hidden"></div>
 
                     <div class="presentation-text-container flex column">
 
@@ -63,6 +75,10 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="about-page-wrapper .wrapper-height">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam temporibus quia delectus vero, consequatur facere natus nisi modi cum quis, minima commodi odio ipsam eaque rerum ipsum voluptate, adipisci voluptatem.</p>
     </div>
 </body>
 </html>
