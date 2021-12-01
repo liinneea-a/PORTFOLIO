@@ -1,0 +1,21 @@
+.card {
+    background-color: rgb(35, 33, 48);
+    border-radius: 20px 5px 20px 10px;
+    height: 15rem;
+    width: 15rem;
+    margin: 10px;
+    padding: 20px;
+    
+    }
+    .card-links {
+        color:violet;
+    }
+    /* .card-inner {
+        height: 200px;
+        width: 150px;
+        border: 3px solid rgb(105, 179, 156);
+        
+        margin: 5px;
+        overflow: hidden;
+    } */
+   

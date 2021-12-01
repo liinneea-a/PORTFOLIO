@@ -61,6 +61,7 @@ function toggleDropdown() {
     closeMenu.onclick = closeDropDown;
 }
 function closeDropDown() {
+    console.log('hi');
     const toggleMenu = document.getElementById('toggleMenu');
     toggleMenu.style.display = 'none';
 }
