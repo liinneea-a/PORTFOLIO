@@ -1,6 +1,5 @@
 
 
-
 /*------START------*/
 body, html {
     height: auto;
@@ -86,8 +85,6 @@ header {
     from {height: 100%;}
     to {height: 0%;}
 }
-
-
 ul, a {
     list-style: none;
     color: var(--font-color);
@@ -199,4 +196,3 @@ h1, p {
 .redcomma {
     color: red;
 }
-
