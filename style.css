@@ -69,13 +69,22 @@ header {
     background: black;
     opacity: 0.9;
     width: 100%;
-    height: 50rem;
+    height: 100%;
     overflow: hidden;
     animation: showdropdown 1s;
+    
+}
+.hidedropdownmenu {
+    animation: hidedropdown 1s;
+    display: none;
 }
 @keyframes showdropdown {
     from {height: 0;}
     to {height: 100%;}
+}
+@keyframes hidedropdown {
+    from {height: 100%;}
+    to {height: 0%;}
 }
 
 
@@ -86,7 +95,7 @@ ul, a {
     text-align: center;
 }
 .drop-down-list {
-    height: 40rem;
+    height: 100%;
     padding: 0;
 }
 .dd-menu-items {
@@ -128,9 +137,9 @@ a:hover {
     opacity: 0.9;
     transform: scaley(1.2);
     transform-origin: top;
-    left: 3%;
+    left: 11px;
     right: 3%;
-    top: 2%;
+    top: 9.5px;
     bottom: 0;
     /* pointer-events: none; */
 }

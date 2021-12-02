@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="resuables.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="mediaQ.css">
 <title>Document</title>
 </head>
@@ -96,7 +97,7 @@
                     Im Linnea! A half nerdy half cool 25 year old currently living in Gothenburg, Sweden. I have a passion for creating, and finding new cool ways to do so. Creating interactive and functional stuff on the internet with the beautiful combination of intuition, art and logic has gotten me completely hooked.</p>
                 
                 <div class="connect-container flex column">
-                    <p class="connect-text">Connect with me!</p>
+                    <p class="small-text connect-text">Connect with me!</p>
                     <div class="social-media-icons flex j-space-bet">
                         <div class="connect-icon-container flex j-c a-c"><img class="connect-logo" src="./githublogo.svg" alt="GitHub link"></div>
                         <div class="connect-icon-container flex j-c a-c"><img class="connect-logo" src="./instagramlogo.svg" alt="instagram link"></div>
@@ -125,33 +126,40 @@
        
             <div class="card-text">
                 <h3>FACTORY</h3>
-                <p>FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/">Try it out!</a></p>
+                <p class="flex column j-spacebet">FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/"><br><span class="small-text card-link">Try it out!</span></a></p>
             </div>
         </div>
         <div class="card portfolio flex a-c j-c">
             <div class="card-text">
                 <h3>FACTORY</h3>
-                <p>FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/">Try it out!</a></p>
+                <p class="flex column j-spacebet">FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/"><br><span class="small-text card-link">Try it out!</span></a></p>
             </div>
         </div>
         <div class="card portfolio flex a-c j-c">
             <div class="card-text"><h3>FACTORY</h3>
-                <p>FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/">Try it out!</a></p></div>
+                <p class="flex column j-spacebet">FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/"><br><span class="small-text card-link">Try it out!</span></a></p></div>
         </div>
         <div class="card portfolio flex a-c j-c">
             <div class="card-text"><h3>FACTORY</h3>
-                <p>FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/">Try it out!</a></p></div>
+                <p class="flex column j-spacebet">FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/"><br><span class="small-text card-link">Try it out!</span></a></p></div>
         </div>
     </div>
 
 
-    <div id="contact" class="contact-page-wrapper flex wrapper">
-        <div class="form-container flex column j-c a-c">
-            <form class="flex column" action="">
-                <label for="firstname">Firstname</label>
+    <div id="contact" class="contact-page-wrapper flex wrapper column j-c a-c">
+        <div class="border flex column a-c contact-text-container">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            <p>Jason believes in lifelong learning and continuous improvement. In his newsletter, he shares his experience — both technical and otherwise — in hopes of connecting with more lifelong learners and building a community of practice.</p>
+        </div>
+        <div class=" form-container flex column j-c a-c">
+            <form class=" contact-form flex column" action="">
+                <label class="small-text" for="firstname">Firstname</label>
                 <input type="text" name="firstname" id="firstname">
-                <label for="email">email-address</label>
+                <label class="small-text" for="email">email-address</label>
                 <input type="text" name="email-address" id="emailAdress">
+                <label class="small-text" for="messade">Message</label>
+                <input class="message-input" type="text" name="message" id="message">
+                <button class="submit-btn" type="submit">Send!</button>
             </form>
         </div>
     </div>

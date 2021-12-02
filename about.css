@@ -32,10 +32,10 @@
 }
 img.profile-pic {
     position: absolute;
-    left: 0;
-    top: -20px;
-    width: 200px;
-    height: 300px;
+    left: 0px;
+    top: 0px;
+    width: 170px;
+    height: 180px;
    
 }
 .connect-container {
