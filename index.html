@@ -16,41 +16,34 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="variables.css">
     <link rel="stylesheet" href="resuables.css">
     <link rel="stylesheet" href="mediaQ.css">
 <title>Document</title>
 </head>
 <body class="outer-border flex column a-c">
-    <!-- <div class="makelogo">
-        <p class="letter-l">L</p>
-        <p class="letter-a">A</p>
-    </div> -->
     <div id="wrapper" class="wrapper bg-clr-grey flex a-c column wrapper-height postition-rel">
         <div id="wave-s" class="waves-svg position-abs m-l-hidden pointer-ev-none"></div>
-
-
-        <header class="header flex j-c">
+        <header class="header flex">
             <div class="l-header m-l-show nav-items-container flex j-c a-c">
                 <ul class="header-menu flex row j-space-bet">
                     <li class="header-menu-items"><a href="#">Home</a></li>
                     <li class="header-menu-items"><a href="#about">About</a></li>
                     <li class="header-menu-items"><a href="#portfolio">Portfolio</a></li>
                     <li class="header-menu-items"><a href="#contact">Contact</a></li>
-                    <!-- <span id="lightmodeBtn" class="material-icons light-mode-btn">wb_sunny</span>
-                    <span id="darkmodeBtn" class="material-icons dark-mode-btn">nightlight</span> -->
-                    <span id="toggleLightMode" class="material-icons toggle-lightmode">lightbulb</span>
                 </ul>              
-
-            </div> 
+            </div>
+                <div class="lightbtn-container flex j-c a-c">
+                    <span id="toggleLightMode" class="material-icons toggle-lightmode">lightbulb</span>
+                </div>
                 <div id="menuIcon" class="s-header m-l-hidden flex j-flexend">
                     <span id="openMenu" class="material-icons menu-icon">menu</span>
-                </div>    
-        </header>
-
+                </div>  
+            </header>
+<!-- START PAGE -->
         <div class="main-container">
             <div id ="toggleMenu" class="drop-down-menu hidden flex column j-c a-c">
-                
-                <ul class="drop-down-list grid">
+                <ul id="toggleParent" class="drop-down-list grid">
                     <span id="closeMenu" class="material-icons">close</span>
                     <li class="dd-menu-items"><a href="#">Home</a></li>
                     <li class="dd-menu-items"><a href="#about">About</a></li>
@@ -59,26 +52,14 @@
                 </ul>
             </div>
             <div class="first-page flex">
-                <!-- <div class="waves-container position-rel"> -->
-                    
-                    <div id="wave-bg-s" class="waves-bigscreen m-l-show position-abs pointer-ev-none"></div>
-                <!-- </div> -->
-
-
-
+                <div id="wave-bg-s" class="waves-bigscreen m-l-show position-abs pointer-ev-none"></div>
                 <div id="wrapper" class="border headline-wrapper flex column ">
-
-
-                    
                     <div class="logo flex"></div>
                     <div class="divider s-hidden"></div>
-
                     <div class="presentation-text-container tx- flex column">
-
                         <div class="font-size-20">
                             <h1><span class="hi">Hi<span class="redcomma">,</span></span><br class="m-l-no-break"> I'm Linnea Albertsson</h1>
                         </div>
-
                         <div class="subline-text tx-right">
                             <p>An aspiring web developer and front-end student based in Gothenburg, Sweden</p>
                         </div>
@@ -92,50 +73,38 @@
         </div>
     </div>
 
-    <!-- ABOUT PAGE -->
+<!-- ABOUT PAGE -->
     
     <div id="about" class="about-page-wrapper wrapper flex column a-c j-c">
         <div class="subpage-text-container flex column a-c">
             <h2 class="headline-text about-headline">Who am I?</h2>
-                
-                <p class="about-text">Hi
-                    Im Linnea!<br>I'm 25 years old currently living in Gothenburg, Sweden. I have a passion for creating, and finding new cool ways to do so. Creating interactive and functional stuff with code with the beautiful combination of design, logic and intuition has gotten me completely hooked.</p>
-                
-                <div class="icon-profil-p flex column a-c j-space-bet">
-                    <div class="connect-container flex column">
-                        <p class="small-text connect-text">Connect with me!</p>
-                        <div class="social-media-icons flex j-space-bet">
-                            <div class="connect-icon-container flex j-c a-c"><a href="https://github.com/liinneea-a" target="_blank"><img class="connect-logo" src="./githublogo.svg" alt="GitHub link"></a></div>
-                            <div class="connect-icon-container flex j-c a-c"><a href="https://www.instagram.com/linneasalbertsson/" target="_blank"><img class="connect-logo" src="./instagramlogo.svg" alt="instagram link"></a></div>
-                            <div class="connect-icon-container flex j-c a-c"><a href="#" target="_blank"><img class="connect-logo" src="./linkedinlogo.svg" alt="linkedin link"></a></div>
-                            
-                        </div>
-                    </div>
-                    <div class="profile-pic-container">
-                        <img class="profile-pic" src="./hello.jpg" alt="A picture of Me">
+            <p class="about-text">Hi Im Linnea!<br>I'm 25 years old currently living in Gothenburg, Sweden. I have a passion for creating, and finding new cool ways to do so. Creating interactive and functional stuff with code with the beautiful combination of design, logic and intuition has gotten me completely hooked.</p>
+            <div class="icon-profil-p flex column a-c j-space-bet">
+                <div class="connect-container flex column">
+                    <p class="small-text connect-text">Connect with me!</p>
+                    <div class="social-media-icons flex j-space-bet">
+                        <div class="connect-icon-container flex j-c a-c"><a href="https://github.com/liinneea-a" target="_blank"><img class="connect-logo" src="./icons/linkedinlogo.svg" alt="GitHub link"></a></div>
+                        <div class="connect-icon-container flex j-c a-c"><a href="https://www.instagram.com/linneasalbertsson/" target="_blank"><img class="connect-logo" src="./icons/instagramlogo.svg" alt="instagram link"></a></div>
+                        <div class="connect-icon-container flex j-c a-c"><a href="#" target="_blank"><img class="connect-logo" src="./icons/linkedinlogo.svg" alt="linkedin link"></a></div>
                     </div>
                 </div>
-                <div class="s-m-hidden small-profile-pics flex column">
-                    <img id="small-pic" class="small-pics" src="./smallpic.jpg" alt="picture of me">
-                    <img id="small-pic1" class="small-pics" src="./smallpic2.png" alt="another picture of me">
-                    <img id="small-pic2" class="small-pics" src="./smallpic3.jpg" alt="a third picture of me">
+                <div class="profile-pic-container">
+                    <img class="profile-pic" src="./img/hello.jpg" alt="A picture of Me">
                 </div>
-            
+            </div>
+            <div class="s-m-hidden small-profile-pics flex column">
+                <img id="small-pic" class="small-pics" src="./img/smallpic.jpg" alt="picture of me">
+                <img id="small-pic1" class="small-pics" src="./img/smallpic2.png" alt="another picture of me">
+                <img id="small-pic2" class="small-pics" src="./img/smallpic3.jpg" alt="a third picture of me">
+            </div>
         </div>
     </div>
 
-    <!-- PORTFOLIO PAGE -->
+<!-- PORTFOLIO PAGE -->
+
     <div id="portfolio" class="portfolio-page-wrapper wrapper flex wrap j-c a-c">
         <h3 class="headline-text">My Portfolio</h3>
         <div class="card portfolio flex a-c j-c">
-            
-                <!-- <video class="card-video" width="" autoplay loop muted playsinline>
-                    <source src="./factory-vid.mov">
-                    <source src="./factory-vid.mov"> -->
-                    <!-- " Your browsers does not support video elemet" -->
-                <!-- </video> --> 
-        
-       
             <div class="card-text">
                 <h3>FACTORY</h3>
                 <p class="flex column j-spacebet">FACTORY is an interactive text based mini-game where you get to go on a little advernture in a quite familiar place...<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/"><br><span class="small-text card-link">Try it out!</span></a></p>
@@ -157,6 +126,7 @@
         </div>
     </div>
 
+<!-- CONTACT PAGE -->
 
     <div id="contact" class="contact-page-wrapper flex wrapper column a-c">
         <div class="border flex column a-c j-c contact-text-container">
@@ -167,7 +137,7 @@
             <form class="contact-form flex column j-space-bet "action="">
                 <label class="small-text" for="firstname">Firstname</label>
                 <input type="text" name="firstname" id="firstname">
-                <label class="small-text" for="email">email-address</label>
+                <label class="small-text" for="email">Email-address</label>
                 <input type="text" name="email-address" id="emailAdress">
                 <label class="small-text" for="messade">Message</label>
                 <input class="message-input" type="text" name="message" id="message">
@@ -175,6 +145,5 @@
             </form>
         </div>
     </div>
-<footer></footer>
 </body>
 </html>

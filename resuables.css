@@ -1,27 +1,5 @@
 /*-----REUSABLES------*/
-:root {
-    --font-color: #f3f3f3;
-    --background-color: #1D1D1D;
-    --second-background-color: rgb(35, 33, 48);
-    --background-clr-gradientgreen: linear-gradient(90deg, rgba(148,110,185,1) 0%, rgba(16,255,54,1) 100%);
-    --headline-font: 'Scheherazade New', serif;
-    --headline-font-size: 32px;
-    --p-font-size-l: 20px;
-    --card-color: rgb(35, 33, 48);
-    --btn-color: rgb(136, 105, 147);
-    --links-color: violet;
-}
 
-.lightmode {
-    --font-color: #3A3A3A;
-    --background-color: #FFF3E8;
-    --second-background-color: #fff3e8;
-    --card-color: rgba(66, 63, 82, 0.543);
-    --btn-color: rgba(102, 40, 123, 0.694);
-    --links-color: #1d1d1dbb;
-    
-    animation: lightmodeslidein .5s;
-}
 /* @keyframes lightmodeslidein {
     from {background-color: #1D1D1D;}
     to {background-color: #FFF3E8;}

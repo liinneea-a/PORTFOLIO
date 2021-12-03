@@ -28,6 +28,7 @@ body {
 /*------HEADER------*/
 header {
     width: 100%;
+    justify-content: end;
     /* background-color:#151515; */
    
 }
@@ -37,12 +38,12 @@ header {
 }
 .s-header {
     justify-content: right;
-    width: 100%;
+    /* width: 100%; */
   
    
 }
-.menu-icon.material-icons {
-    position: ;
+.menu-icon.material-icons, .toggle-lightmode.material-icons {
+    color: var(--font-color);
     padding: 15px;
     font-size: 40px;
 
@@ -66,11 +67,12 @@ header {
     top: 0;
     z-index: 90;
     background: black;
-    opacity: 0.9;
+    opacity: var(--drop-down-opacity);
     width: 100%;
     height: 80%;
     overflow: hidden;
     animation: showdropdown 1s;
+    color: white;
     
 }
 /* #closeMenu {
@@ -134,7 +136,7 @@ a:hover {
     height: 100%;
 } */
 .waves-svg {
-    background: url(./waves-mobile.svg) no-repeat;
+    background: url(./waves/Waves-mobile.svg) no-repeat;
     background-size: contain;
     width: 90%;
     height: 100%;
@@ -148,7 +150,7 @@ a:hover {
     /* pointer-events: none; */
 }
 .waves-bigscreen {
-    background: url(./waves-straight.svg) no-repeat;
+    background: url(./waves/waves-straight.svg) no-repeat;
     width: 100%;
     height: 50rem;
     top: -100px;
@@ -156,7 +158,7 @@ a:hover {
 }
 /*-----LOGO-------*/
 .logo {
-    background: url(./logo.svg) no-repeat;
+    background: url(./icons/logo.svg) no-repeat;
     height: 100px;
     width: 100px;
     margin-left: 20%;

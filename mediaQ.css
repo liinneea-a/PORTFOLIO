@@ -4,6 +4,7 @@
     .m-l-show {display:  flex;}
     .m-l-hidden {display: none;}
 
+    header {justify-content: center;}
     .first-page {justify-content: center;}
     .m-l-no-break {display: none;}
     .logo {margin:0; height: ; transform: scale(1.7);}
