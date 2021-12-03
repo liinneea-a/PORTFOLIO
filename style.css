@@ -68,18 +68,21 @@ header {
     background: black;
     opacity: 0.9;
     width: 100%;
-    height: 100%;
+    height: 80%;
     overflow: hidden;
     animation: showdropdown 1s;
     
 }
+/* #closeMenu {
+    height: 30%;
+} */
 .hidedropdownmenu {
     animation: hidedropdown 1s;
     display: none;
 }
 @keyframes showdropdown {
     from {height: 0;}
-    to {height: 100%;}
+    to {height: 80%;}
 }
 @keyframes hidedropdown {
     from {height: 100%;}
@@ -132,7 +135,7 @@ a:hover {
     width: 90%;
     height: 100%;
     opacity: 0.9;
-    transform: scaley(1.2);
+    /* transform: scaley(1.0); */
     transform-origin: top;
     left: 11px;
     right: 3%;
@@ -168,6 +171,9 @@ a:hover {
     text-align: right;
     margin-top: 30px;
 }
+.font-size-20 {
+    font-size: 20px;
+}
 .headline-wrapper {
     width: 100%;
     margin-left: 4rem;
@@ -182,7 +188,6 @@ a:hover {
 .subline-text {
     font-size: 21px;
     margin-top: 10px;
-    text-align: right;
     letter-spacing: 1px;
     line-height: 20px;
 }

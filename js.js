@@ -47,8 +47,8 @@ function main() {
 function addEventListeners() {
     const menuBtn = document.getElementById('menuIcon');
     const closeMenu = document.getElementById('closeMenu');
-  
     menuBtn.addEventListener('click', toggleDropdown);
+    // changeBackgroundColorOnScroll();
 } 
 
 function toggleDropdown() {
@@ -59,9 +59,27 @@ function toggleDropdown() {
     toggleMenu.style.display = 'unset';
 
     closeMenu.onclick = closeDropDown;
+
 }
 function closeDropDown() {
     const toggleMenu = document.getElementById('toggleMenu');
-    toggleMenu.classList.add('hidedropdownmenu');
+    // toggleMenu.classList.add('hidedropdownmenu');
+    toggleMenu.addEventListener('click', hide());
+
     // toggleMenu.style.display = 'none';
 }
+
+
+// function changeBackgroundColorOnScroll() {
+    /** Creating an observer */
+    // const observer = new IntersectionObserver(entries => {
+    //     entries.forEach(entry => {
+    //         if (entry.isIntersecting) {
+    //             document.body.classList.add('bg-clr-gradientgreen');
+    //             console.log(document.body.style.background);
+    //         }
+    //     });
+    // });
+    /** Telling observer to track the about-section */
+    // observer.observe(document.getElementById('about'));
+// }

@@ -1,7 +1,18 @@
 .about-page-wrapper {
     background-color: var(--background-color);
-    
 }
+/* .bg-clr-gradientgreen {
+    animation: change-background 2s infin;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes change-background {
+    from {background-color: var(---background-color);}
+    to {background: var(--background-clr-gradientgreen);}
+} */
+
 .about-page-wrapper, .portfolio-page-wrapper {
     height: 100vh;
     width: ;
@@ -19,10 +30,10 @@
     justify-content: space-evenly;
     
 }
-.about-headline {
+/* .about-headline {
     font-size: 32px;
     font-family: "Scheherazade New";
-}
+} */
 .profile-pic-container {
     border-radius: 100%;
     height: 10rem;

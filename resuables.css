@@ -2,8 +2,9 @@
 :root {
     --font-color: #f3f3f3;
     --background-color: #1D1D1D;
+    --background-clr-gradientgreen: linear-gradient(90deg, rgba(148,110,185,1) 0%, rgba(16,255,54,1) 100%);
     --headline-font: 'Scheherazade New', serif;
-    --headline-font-size: 20px;
+    --headline-font-size: 32px;
 }
 
 .lightmode {
@@ -16,6 +17,12 @@
     to {background-color: #FFF3E8;}
 }
 
+/*-----------------------*/
+/*
+När #section är i viewport => ändra bakgrundfärg till gradientGreen. 
+
+*/
+/*-----------------------*/
 
 
 .flex {display: flex;}
@@ -31,13 +38,16 @@
     margin: 9.5px;
     margin-top: 9.5px;
     /* overflow: hidden; */
-    background-color: var(--background-color);
     width: 97%;
     min-height: 100vh;
     height: 100%;
     box-sizing: border-box;
 }
+.bg-clr-grey {
+    background-color: var(--background-color);
+}
 .small-text {letter-spacing: 3px; font-size: 13px;}
+.tx-right {text-align: right;}
 
 
 .grid {display: grid;}

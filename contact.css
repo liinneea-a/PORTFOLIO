@@ -4,14 +4,20 @@
 }
 .contact-text-container {
   width: 80%;
-  margin: 5rem 0 10rem 0;
+  margin: 5rem 0 5rem 0;
+  align-items: flex-end;
+}
+.contact-headline {
+    margin-bottom: 0;
+}
+.contact-subline-text {
+    text-align: right;
+
 }
 .form-container {
     height: 25rem;
     width: 20rem;
-    
-    
-  
+    margin-bottom: 5rem;
 }
 .contact-form {
     height: 100%;
@@ -51,6 +57,7 @@ label {
     height: 30px;
     width: 50%;
     background-color: rgba(214, 127, 193, 0.664);
+    /* background-color: #81ac58; */
     margin-top: 5px;
    
 }
