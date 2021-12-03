@@ -48,8 +48,8 @@ function addEventListeners() {
     const menuBtn = document.getElementById('menuIcon');
     const closeMenu = document.getElementById('closeMenu');
     menuBtn.addEventListener('click', toggleDropdown);
-    // changeBackgroundColorOnScroll();
 } 
+
 
 function toggleDropdown() {
     const toggleMenu = document.getElementById('toggleMenu');
@@ -67,6 +67,9 @@ function closeDropDown() {
     toggleMenu.addEventListener('click', hide());
 
     // toggleMenu.style.display = 'none';
+}
+function screenLarge() {
+    console.log('Large');
 }
 
 

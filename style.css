@@ -163,40 +163,51 @@ a:hover {
     border-radius: 100px;
 }
 /*------TEXT--------*/
+p {line-height: 20px;
+    letter-spacing: 1px;}
+h1 {
+    font-family: var(--headline-font);
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: right;
+}
 .headline-text {
+    text-align: center;
     font-family: var(--headline-font);
     font-size: var(--headline-font-size);
     line-height: 30px;
-    letter-spacing: 3px;
-    text-align: right;
-    margin-top: 30px;
+    letter-spacing: 2px;
+    margin: 30px 0 30px 0;
+    width: 100%;
 }
 .font-size-20 {
-    font-size: 20px;
+    font-size: 15px;
 }
 .headline-wrapper {
     width: 100%;
     margin-left: 4rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
+    justify-content: space-between;
 
 }
 .presentation-text-container {
     max-width: 20rem;
+    margin-top: 1rem;
     width: 100%;
     color: var(--font-color);
 }
-.subline-text {
-    font-size: 21px;
+.subline-text > p {
+    font-size: 20px;
     margin-top: 10px;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 h1, p {
     margin: 0;
 }
 .hi {
-    font-size: calc(var(--headline-font-size) + 30px);
+    font-size: calc(var(--headline-font-size) + 15px);
 }
 .redcomma {
     color: red;

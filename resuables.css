@@ -5,6 +5,7 @@
     --background-clr-gradientgreen: linear-gradient(90deg, rgba(148,110,185,1) 0%, rgba(16,255,54,1) 100%);
     --headline-font: 'Scheherazade New', serif;
     --headline-font-size: 32px;
+    --p-font-size-l: 20px;
 }
 
 .lightmode {
@@ -59,6 +60,7 @@ När #section är i viewport => ändra bakgrundfärg till gradientGreen.
 .pointer-ev-none {pointer-events: none;}
 
 .s-hidden {display: none;}
+.s-m-hidden {display: none;}
 .m-l-hidden {display: flex;}
 .m-l-show {display:  none;}
 

@@ -15,8 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="resuables.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="resuables.css">
     <link rel="stylesheet" href="mediaQ.css">
 <title>Document</title>
 </head>
@@ -35,9 +35,6 @@
                     <li class="header-menu-items"><a href="#">Home</a></li>
                     <li class="header-menu-items"><a href="#about">About</a></li>
                     <li class="header-menu-items"><a href="#portfolio">Portfolio</a></li>
-
-
-                    <li class="header-menu-items"><a href="#">Other stuff</a></li>
                     <li class="header-menu-items"><a href="#contact">Contact</a></li>
                     <!-- <span id="lightmodeBtn" class="material-icons light-mode-btn">wb_sunny</span>
                     <span id="darkmodeBtn" class="material-icons dark-mode-btn">nightlight</span> -->
@@ -58,7 +55,6 @@
                     <li class="dd-menu-items"><a href="#">Home</a></li>
                     <li class="dd-menu-items"><a href="#about">About</a></li>
                     <li class="dd-menu-items"><a href="#portfolio">Portfolio</a></li>
-                    <li class="dd-menu-items"><a href="#">Other Stuff</a></li>
                     <li class="dd-menu-items"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -79,7 +75,7 @@
 
                     <div class="presentation-text-container tx- flex column">
 
-                        <div class="font-size-20 headline-text">
+                        <div class="font-size-20">
                             <h1><span class="hi">Hi<span class="redcomma">,</span></span><br class="m-l-no-break"> I'm Linnea Albertsson</h1>
                         </div>
 
@@ -100,21 +96,28 @@
     
     <div id="about" class="about-page-wrapper wrapper flex column a-c j-c">
         <div class="subpage-text-container flex column a-c">
-            <h2 class="headline-text">Who am I?</h2>
+            <h2 class="headline-text about-headline">Who am I?</h2>
                 <p class="about-text">Hi
                     Im Linnea!<br>A half nerdy half cool 25 year old currently living in Gothenburg, Sweden. I have a passion for creating, and finding new cool ways to do so. Creating interactive and functional stuff with code with the beautiful combination of design, logic and intuition has gotten me completely hooked.</p>
-                
-                <div class="connect-container flex column">
-                    <p class="small-text connect-text">Connect with me!</p>
-                    <div class="social-media-icons flex j-space-bet">
-                        <div class="connect-icon-container flex j-c a-c"><a href="https://github.com/liinneea-a" target="_blank"><img class="connect-logo" src="./githublogo.svg" alt="GitHub link"></a></div>
-                        <div class="connect-icon-container flex j-c a-c"><a href="https://www.instagram.com/linneasalbertsson/" target="_blank"><img class="connect-logo" src="./instagramlogo.svg" alt="instagram link"></a></div>
-                        <div class="connect-icon-container flex j-c a-c"><a href="#" target="_blank"><img class="connect-logo" src="./linkedinlogo.svg" alt="linkedin link"></a></div>
-                        
+               
+                <div class="icon-profil-p flex column a-c j-space-bet">
+                    <div class="connect-container flex column">
+                        <p class="small-text connect-text">Connect with me!</p>
+                        <div class="social-media-icons flex j-space-bet">
+                            <div class="connect-icon-container flex j-c a-c"><a href="https://github.com/liinneea-a" target="_blank"><img class="connect-logo" src="./githublogo.svg" alt="GitHub link"></a></div>
+                            <div class="connect-icon-container flex j-c a-c"><a href="https://www.instagram.com/linneasalbertsson/" target="_blank"><img class="connect-logo" src="./instagramlogo.svg" alt="instagram link"></a></div>
+                            <div class="connect-icon-container flex j-c a-c"><a href="#" target="_blank"><img class="connect-logo" src="./linkedinlogo.svg" alt="linkedin link"></a></div>
+                            
+                        </div>
+                    </div>
+                    <div class="profile-pic-container">
+                        <img class="profile-pic" src="./hello.jpg" alt="A picture of Me">
                     </div>
                 </div>
-                <div class="profile-pic-container">
-                    <img class="profile-pic" src="./hello.jpg" alt="A picture of Me">
+                <div class="s-m-hidden small-profile-pics flex column">
+                    <img id="small-pic" class="small-pics" src="./smallpic.jpg" alt="picture of me">
+                    <img id="small-pic1" class="small-pics" src="./smallpic2.png" alt="another picture of me">
+                    <img id="small-pic2" class="small-pics" src="./smallpic3.jpg" alt="a third picture of me">
                 </div>
             
         </div>
@@ -140,7 +143,7 @@
         <div class="card portfolio flex a-c j-c">
             <div class="card-text">
                 <h3>PORTFOLIO</h3>
-                <p class="flex column j-spacebet">My first portfolio as an (soon to be) front-end developer. Here you can get to know me and my work a little better and also connect with me on<a class="card-links" href="https://liinneea-a.github.io/js-ind-lab-1/"><span class="small-text card-link">social media</span></a></p>
+                <p class="flex column j-spacebet">My first portfolio as a (soon to be) front-end developer. Here you can get to know me and my work a little better and also connect with me on<a class="card-links" href="#about"><span class="small-text card-link">social media</span></a></p>
             </div>
         </div>
         <div class="card portfolio flex a-c j-c">
@@ -157,7 +160,7 @@
     <div id="contact" class="contact-page-wrapper flex wrapper column a-c">
         <div class="border flex column a-c j-c contact-text-container">
             <h2 class="headline-text contact-headline">Have any questions?</h2><h3 class="contact-subline-text">Im always up for a chat</h3>
-            <p class="tx-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus eos obcaecati officia aspernatur minus? Ut libero, vitae nihil recusandae, praesentium cum veritatis assumenda illo cupiditate quibusdam earum. Earum, vel inventore.</p>
+            <p class="tx-right"><span>end me an email on linnea.albertsson@gmail.com</span> or you can reach me by filling out the form.</p>
         </div>
         <div class="form-container flex column j-c a-c">
             <form class="contact-form flex column j-space-bet "action="">
@@ -171,6 +174,6 @@
             </form>
         </div>
     </div>
-
+<footer></footer>
 </body>
 </html>
