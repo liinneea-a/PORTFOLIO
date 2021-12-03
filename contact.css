@@ -1,5 +1,6 @@
 .contact-page-wrapper {
-    background-color: rgb(35, 33, 48);
+    background-color: var(--second-background-color);
+    color:var(--font-color);
 
 }
 .contact-text-container {
@@ -30,7 +31,7 @@ input {
     width: 100%;
     color: white;
     border-radius: 10px;
-    background-color: rgb(66, 63, 82);
+    background-color: rgba(66, 63, 82, 0.543);
     border: none;
     /* border-bottom: 2px solid purple; */
     
@@ -45,7 +46,7 @@ input:focus, input:active {
     height: 70px;
 }
 label {
-    color: whitesmoke;
+    color: ;
     margin-bottom: 2px;
     
 
@@ -56,7 +57,7 @@ label {
     border-radius: 50px;
     height: 30px;
     width: 50%;
-    background-color: rgba(214, 127, 193, 0.664);
+    background-color: var(--btn-color);
     /* background-color: #81ac58; */
     margin-top: 5px;
    

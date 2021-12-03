@@ -1,5 +1,6 @@
 .about-page-wrapper {
-    background-color: var(--background-color);
+    background-color: var(--second-background-color);
+
 }
 /* .bg-clr-gradientgreen {
     animation: change-background 2s infin;
@@ -19,10 +20,9 @@
     text-align: center;
     font-size: 14px;
 }
-.portfolio-page-wrapper {
-    background-color: var(--background-color)
-}
+
 .subpage-text-container {
+    color: var(--font-color);
     width: 80%;
     height: 100%;
     min-height: 50rem;
@@ -61,17 +61,19 @@ img.profile-pic {
 .connect-text {
     margin-bottom: 20px;
 }
-.connect-logo {
+a > .connect-logo {
     width: 35px;
     height: 35px;
     border-radius: 100%;
+    
+    
     
 }
 .connect-icon-container {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: #81ac58;
+    background-color: rgb(126, 186, 107);
 
 }
 .small-profile-pics {

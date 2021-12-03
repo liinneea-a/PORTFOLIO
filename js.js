@@ -13,15 +13,32 @@ const lightModeToggle = document.querySelector('#toggleLightMode');
 const enableLightMode = () => {
     // add class lightmode to wrapper
     document.querySelector('#wrapper').classList.add('lightmode');
+    document.querySelector('#about').classList.add('lightmode');
+    document.querySelector('#portfolio').classList.add('lightmode');
+    document.querySelector('#contact').classList.add('lightmode');
+    document.getElementById('wave-bg-s').classList.add('waves-lightmode');
+    document.getElementById('wave-s').classList.add('waves-lightmode');
+
+
     // update lightmode in localstorage
-    localStorage.setItem('lightMode', 'enabled'); 
+    localStorage.setItem('lightMode', 'enabled');
+
+    
+
 };
 
 const disableLightMode = () => {
     // remove class lightmode to wrapper
     document.getElementById('wrapper').classList.remove('lightmode');
+    document.querySelector('#about').classList.remove('lightmode');
+    document.querySelector('#portfolio').classList.remove('lightmode');
+    document.querySelector('#contact').classList.remove('lightmode');
+    document.getElementById('wave-bg-s').classList.remove('waves-lightmode');
+    document.getElementById('wave-s').classList.remove('waves-lightmode');
     // update lightmode in localstorage
     localStorage.setItem('lightMode', null);
+
+
 };
 
 if (lightMode === 'enabled') {
@@ -32,7 +49,7 @@ lightModeToggle.addEventListener('click', () => {
     lightMode = localStorage.getItem('lightMode');
     if (lightMode !== 'enabled') {
         enableLightMode();
-        console.log(lightMode);
+        // console.log(lightMode);
     } else {
         disableLightMode();
     }
