@@ -14,33 +14,45 @@ body {
     letter-spacing: .5px;
     line-height: 17px;
     background: rgb(148,110,185);
-    background: linear-gradient(90deg, rgba(148,110,185,1) 0%, rgba(255,16,167,1) 100%);
-    /* overflow: hidden; */
+    background: var(--background-clr-gradient);
+
+}
+.gradient-div {
+    position: absolute;
+    z-index: 0;
+    /* background: rgb(86, 220, 184);
+    background: radial-gradient(circle, rgb(86, 220, 184) 0%, rgba(252,70,107,0) 100%); */
+    background: rgb(110,185,158);
+    background: radial-gradient(circle, rgba(110,185,158,1) 0%, rgba(93,192,183,1) 61%, rgba(252,70,107,0) 100%);
+    left: -20px;
+    height: 100%;
+    width: 50%;
+
+}
+.z-100 {
+    position: absolute;
+    z-index: 100;
 }
 
-/* .makelogo {
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-    border: 62px solid;
-
+/* .clr-scroll-change {
+    background: var(--about-page-background-gradient);
+    transition: background-clip 2s;
 } */
+
 /*------HEADER------*/
 header {
-    width: 100%;
+    width: 97%;
     justify-content: end;
-    /* background-color:#151515; */
-   
+    /* background-color: rgba(1, 1, 1, 0.447); */
 }
+
 .l-header {
     height: 46px;
-    width: 100%;
+    width: 70%;
+    
 }
 .s-header {
-    justify-content: right;
-    /* width: 100%; */
-  
-   
+    justify-content: right; 
 }
 .menu-icon.material-icons, .toggle-lightmode.material-icons {
     color: var(--font-color);
@@ -48,9 +60,12 @@ header {
     font-size: 40px;
 
 }
-.menu-button:hover {
+
+
+
+/* .menu-button:hover {
     color: green;
-}
+} */
 .header-menu {
     width: 75%;
     padding: 0;
@@ -75,9 +90,8 @@ header {
     color: white;
     
 }
-/* #closeMenu {
-    height: 30%;
-} */
+
+
 .hidedropdownmenu {
     animation: hidedropdown 1s;
     display: none;
@@ -107,9 +121,7 @@ ul, a {
     font-size: 30px;
     letter-spacing: 3px;
 }
-#closeMenu {
-   
-}
+
 
 a:hover {
     color: rgb(85, 134, 73);
@@ -131,23 +143,18 @@ a:hover {
 /*-------WAVES-------*/
 .waves-lightmode {
     filter: invert(60%) sepia(120%) saturate(1000%) hue-rotate(90deg) brightness(100%) contrast(100%);
-}/* .waves-container {
-    width: 100%;
-    height: 100%;
-} */
+}
 .waves-svg {
     background: url(./waves/Waves-mobile.svg) no-repeat;
     background-size: contain;
     width: 90%;
     height: 100%;
     opacity: 0.9;
-    /* transform: scaley(1.0); */
     transform-origin: top;
     left: 11px;
     right: 3%;
     top: 9.5px;
     bottom: 0;
-    /* pointer-events: none; */
 }
 .waves-bigscreen {
     background: url(./waves/waves-straight.svg) no-repeat;
@@ -193,6 +200,7 @@ h1 {
     width: 100%;
     margin-left: 4rem;
     margin-right: 2rem;
+    margin-top: 30rem;
     justify-content: space-between;
 
 }

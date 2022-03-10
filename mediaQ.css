@@ -1,3 +1,7 @@
+@media (max-width: 767px) {
+    .headline-wrapper {margin-top:auto}
+}
+
 @media (min-width: 768px) {
     .menu-icon {display: none;}
     .s-hidden {display: unset;}
@@ -8,9 +12,8 @@
     .first-page {justify-content: center;}
     .m-l-no-break {display: none;}
     .logo {margin:0; height: ; transform: scale(1.7);}
-    .wrapper {min-height: 40rem;}
 
-    .headline-wrapper {flex-direction: row-reverse; justify-content: center; align-items: center; margin: 0; margin-top: 10rem; height:15rem;}
+    .headline-wrapper {flex-direction: row-reverse; justify-content: center; align-items: center; margin: 0; margin-top: 15rem; height:15rem;}
     .presentation-text-container {text-align: right; max-width: 30rem; margin-right: 20px;}
     /* .headline-text {margin: 0;} */
     .subline-text {font-size: 25px;}
@@ -39,7 +42,7 @@
     /*ABOUT*/
     .subpage-text-container {width: 90%;display: grid; grid-template-columns: 45% 45% 10%; grid-template-rows: 10% 90%;}
     .about-headline {grid-column-start: 1;grid-column-end: 4;}
-    .about-text {width: 80%; text-align: left; font-size: var(--p-font-size-l);}
+    .about-text {width: 80%; text-align: left;}
     .icon-profil-p {margin-left: 2rem; height: 33rem;}
     .connect-container {width: 70%;}
     .profile-pic-container, img.profile-pic {width: 24rem; height: 24rem;}

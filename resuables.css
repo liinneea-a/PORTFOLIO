@@ -31,12 +31,29 @@ När #section är i viewport => ändra bakgrundfärg till gradientGreen.
     height: 100%;
     box-sizing: border-box;
 }
+
+.menu-items-hoverd {
+    color: var(--menu-items-color);
+    transition: color .3s;
+}
+
+.menu-items-hoverd:hover {
+    color: green;
+}
+
 .bg-clr-grey {
     background-color: var(--background-color);
 }
-.small-text {letter-spacing: 3px; font-size: 13px;}
+.small-text {letter-spacing: 3px; font-size: 12px;}
 .tx-right {text-align: right;}
 .tx-center {text-align: center;}
+
+.card-border {
+    border:var(--card-color) 2px solid;
+} 
+
+.flip-pic {transform: scaleX(-1);}
+.b-and-w {filter: grayscale(100%);}
 
 
 .grid {display: grid;}

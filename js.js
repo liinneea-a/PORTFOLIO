@@ -9,7 +9,7 @@ const lightModeToggle = document.querySelector('#toggleLightMode');
 /**  */
 function main() {
     addEventListeners();
-
+    console.log(lightMode)
     /** Checks if lightmode is enabled when page loads */
     if (lightMode === 'enabled') {
     enableLightMode();
@@ -17,11 +17,35 @@ function main() {
     
 }
 
+
 /**  adds onclick for dropdown menu */
 function addEventListeners() {
     const menuBtn = document.getElementById('menuIcon');
     menuBtn.addEventListener('click', toggleDropdown);
+    const desktopMenu = document.querySelector('header');
+    console.log(desktopMenu);
+    document.body.addEventListener('wheel', () => {
+        desktopMenu.classList.add('scroll');
+        const aboutPage = document.getElementById('about');
+        console.log(aboutPage.scrollIntoView)
+        if (aboutPage.scrollIntoView) {
+            document.body.classList.add('clr-scroll-change');
+        }
+    })
+    document.getElementById('musical-span').addEventListener('mouseenter', () => {
+        showMusicalsDiv();
+        
+    })
+
 } 
+function showMusicalsDiv() {
+    console.log("here");
+    const div = document.getElementsByClassName('musicals-div');
+    console.log(div)
+    div.style.visibility = "visible";
+    console.log(div.classList)
+    
+}
 
 /** if menu button is clicked (on small screen) menu drop down is shown */
 function toggleDropdown() {
@@ -41,13 +65,6 @@ function closeDropDown() {
     toggleMenu.style.display = 'none';
 }
 
-
-
-//check if LM is enabled
-// if yes = turn it off
-// if disabled = turn it on
-
-
 /** changes lightmode by checking in local storage if lightmode is enabled 
  * to trigger right function
 */
@@ -63,7 +80,9 @@ lightModeToggle.addEventListener('click', () => {
 /** Changes page to lightmode by adding class .lightmode on elements */
 const enableLightMode = () => {
     // add class lightmode to wrapper
+    document.body.classList.add('lightmode');
     document.querySelector('#wrapper').classList.add('lightmode');
+    document.querySelector('div.first-page').classList.add('lightmode');
     document.querySelector('#about').classList.add('lightmode');
     document.querySelector('#portfolio').classList.add('lightmode');
     document.querySelector('#contact').classList.add('lightmode');
@@ -76,7 +95,9 @@ const enableLightMode = () => {
 
 /** Enables lightmode by removing class .lightmode on elements */
 const disableLightMode = () => {
+    document.body.classList.remove('lightmode');
     document.getElementById('wrapper').classList.remove('lightmode');
+    document.querySelector('div.first-page').classList.remove('lightmode');
     document.querySelector('#about').classList.remove('lightmode');
     document.querySelector('#portfolio').classList.remove('lightmode');
     document.querySelector('#contact').classList.remove('lightmode');
@@ -86,18 +107,3 @@ const disableLightMode = () => {
     /** Updates lightmode to null in LS */
     localStorage.setItem('lightMode', null);
 };
-
-
-// function changeBackgroundColorOnScroll() {
-    /** Creating an observer */
-    // const observer = new IntersectionObserver(entries => {
-    //     entries.forEach(entry => {
-    //         if (entry.isIntersecting) {
-    //             document.body.classList.add('bg-clr-gradientgreen');
-    //             console.log(document.body.style.background);
-    //         }
-    //     });
-    // });
-    /** Telling observer to track the about-section */
-    // observer.observe(document.getElementById('about'));
-// }
