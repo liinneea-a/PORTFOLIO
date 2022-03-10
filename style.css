@@ -130,8 +130,9 @@ a:hover {
 
 /*------FIRST PAGE-----*/
 .main-container {
-    width: 90%;
+    width: 100%;
     height: calc(100% - 46px);
+    position: relative;
 }
 .first-page {
     background-color: var(--background-color);
@@ -162,6 +163,14 @@ a:hover {
     height: 50rem;
     top: -100px;
     transform: scaley(.7);
+}
+.waves-bigscreen-2 {
+    left: 800px;
+    transform: scaleX(-1);
+    border: 2px solid red;
+}
+.waves-outer-div {
+    width: 100vw;
 }
 /*-----LOGO-------*/
 .logo {

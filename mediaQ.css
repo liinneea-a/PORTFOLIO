@@ -1,5 +1,6 @@
 @media (max-width: 767px) {
-    .headline-wrapper {margin-top:auto}
+    .headline-wrapper {margin-top:auto;}
+    .main-container { position: static}
 }
 
 @media (min-width: 768px) {

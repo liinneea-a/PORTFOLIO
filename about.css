@@ -5,26 +5,10 @@
     font-size: 16px;
 }
 
-#musical-span {
+.musical-span {
     color: violet;
     position: relative;
     display:inline;
-}
-
-.musicals-div {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: violet;
-    height: 5rem;
-    width: 15rem;
-    background-color: rgb(0, 0, 0);
-    border-radius: 6px;
-    position: absolute;
-    z-index: 110;
-    visibility: hidden;
 }
 
 
