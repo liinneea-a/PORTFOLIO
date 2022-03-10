@@ -1,8 +1,12 @@
 # PORTFOLIO
 Linnea Albertsson
 
-Detta är min första version av mitt portfolio. Det innehåller kort information om vem jag är, vad jag har gjort samt ett formulär för att kontakta mig. I nuläget är inte formuläret aktivt. 
+Hej och välkoment till mitt CV som front end developer!
 
-Jag har valt att göra begränsningen att låta småfel i designen vara i nuläget för att ta mig tiden att i lugn och ro snygga till det som jag vill ha det. 
+Här hittar du lite information om vem jag är och vad jag sysslar med. 
+
+*Formuläret är tyvärr inte aktivt än så länge, men det kommer! Kontakta mig istället på min mail linnea.albertsson@gmail.com.
+
+Allt gott!
 
  [Demo](https://liinneea-a.github.io/PORTFOLIO/)
