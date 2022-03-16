@@ -33,22 +33,22 @@
     }
 
    .spacerace {
-       background-image: url(./img/spacerace.png);
+       background-image: url(../img/spacerace.png);
        background-repeat:no-repeat;
        background-size:cover;
    }
    .factory {
-       background-image: url(./img/factory.png);
+       background-image: url(../img/factory.png);
        background-repeat:no-repeat;
        background-size: cover;
        
    }
    .portfolio-card {
-       background-image: url(./img/portfolio.png);
+       background-image: url(../img/portfolio.png);
        background-size: cover;
    }
    .calendar {
-    background-image: url(./img/calendar.png);
+    background-image: url(../img/calendar.png);
     background-size: cover;
    }
     .portfolio-page-wrapper {

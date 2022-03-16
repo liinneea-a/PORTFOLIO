@@ -1,13 +1,10 @@
 :root {
     --font-color: #f3f3f3;
-    /* --background-color: #1D1D1D; */
     --background-color: #000;
-    /* --second-background-color: rgb(35, 33, 48); */
     --second-background-color: rgb(20, 17, 38);
     --card-background-color: rgba(0, 0, 0, 0.673);
     --card-font-color: #f3f3f3;
     --background-clr-gradient: linear-gradient(90deg, rgba(148,110,185,1) 0%, rgba(255,16,167,1) 100%);
-    /* --background-clr-gradientgreen: linear-gradient(90deg, rgba(148,110,185,1) 0%, rgba(16,255,54,1) 100%); */
     --headline-font: 'Scheherazade New', serif;
     --headline-font-size: 32px;
     --p-font-size-l: 14px;
@@ -27,13 +24,11 @@
     --card-background-color: #d1b4e3c2;
     --card-font-color: #000;
     --background-clr-gradient: linear-gradient(90deg, rgb(139, 103, 249) 0%, rgb(121, 190, 233)100%);
-    /* --background-clr-gradientgreen: linear-gradient(90deg, rgba(148,110,185,1) 0%, rgba(16,255,54,1) 100%); */
     --card-color: rgba(66, 63, 82, 0.543);
     --btn-color: rgba(102, 40, 123, 0.694);
     --links-color: #7e0000bb;
     --drop-down-opacity: 0.95;
     --menu-items-color: #000;
-
     transition: all s ease-out;
 }
 

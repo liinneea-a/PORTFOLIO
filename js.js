@@ -38,14 +38,7 @@ function addEventListeners() {
     })
 
 } 
-function showMusicalsDiv() {
-    console.log("here");
-    const div = document.getElementsByClassName('musicals-div');
-    console.log(div)
-    div.style.visibility = "visible";
-    console.log(div.classList)
-    
-}
+
 
 /** if menu button is clicked (on small screen) menu drop down is shown */
 function toggleDropdown() {

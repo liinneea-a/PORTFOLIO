@@ -14,14 +14,13 @@
     .m-l-no-break {display: none;}
     .logo {margin:0; height: ; transform: scale(1.7);}
 
-    .headline-wrapper {flex-direction: row-reverse; justify-content: center; align-items: center; margin: 0; margin-top: 15rem; height:15rem;}
+    .headline-wrapper {flex-direction: row-reverse; justify-content: center; align-items: center; margin-right: 11rem; margin-top: 17rem; height:15rem;}
     .presentation-text-container {text-align: right; max-width: 30rem; margin-right: 20px;}
-    /* .headline-text {margin: 0;} */
-    .subline-text {font-size: 25px;}
+    .subline-text {font-size: 1.5rem;}
     .headline-wrapper {align-content: center;}
-     h1,.hi {font-size: 50px; line-height: 40px;}
+     h1,.hi {font-size: 5rem; line-height: 4rem;}
     .redcomma {color: white;}
-    .divider {margin-right: 20px; height: 150px;}
+    .divider {margin: 12px 20px 0 0; height: 170px;}
     
     /*ABOUT*/
     .subpage-text-container {width: 70%;}
