@@ -8,13 +8,14 @@
 .wrap {flex-wrap: wrap;}
 .wrapper-height {min-height: 50rem;}
 .wrapper {
-    margin: 9.5px;
+    margin: 0;
     margin-top: 9.5px;
     width: 97%;
     max-width: 1500px;
     min-height: 100vh;
     height: 100%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .menu-items-hoverd {

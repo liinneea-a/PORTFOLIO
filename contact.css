@@ -1,7 +1,6 @@
 .contact-page-wrapper {
-    background-color: var(--second-background-color);
-    color:var(--font-color);
-
+  background-color: var(--second-background-color);
+  color: var(--font-color);
 }
 .contact-text-container {
   width: 80%;
@@ -10,51 +9,48 @@
 }
 
 .contact-headline {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .contact-subline-text {
-    text-align: right;
-
+  text-align: right;
 }
 .form-container {
-    height: 25rem;
-    width: 20rem;
-    margin-bottom: 5rem;
+  height: 25rem;
+  width: 20rem;
+  margin-bottom: 5rem;
 }
 .contact-form {
-    height: 100%;
-    width: 80%;
-    
-
+  height: 100%;
+  width: 80%;
 }
 input {
-    height: 50px;
-    width: 100%;
-    color: white;
-    border-radius: 10px;
-    background-color: rgba(66, 63, 82, 0.543);
-    border: none;
-    margin-bottom: 2rem;
+  height: 50px;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(66, 63, 82, 0.543);
+  border: none;
+  margin-bottom: 2rem;
 }
-input:focus, input:active {
-    border: none;
-    outline: none;
+input:focus,
+input:active {
+  border: none;
+  outline: none;
 }
 .message-input {
-    margin: 0;
-    height: 70px;
+  margin: 0;
+  height: 70px;
 }
 label {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 .submit-btn {
-    color: white;
-    border: none;
-    border-radius: 50px;
-    height: 30px;
-    width: 50%;
-    background-color: var(--btn-color);
-    margin-top: 5px;
-   
+  color: white;
+  border: none;
+  border-radius: 50px;
+  height: 30px;
+  width: 50%;
+  background-color: var(--btn-color);
+  margin-top: 5px;
 }

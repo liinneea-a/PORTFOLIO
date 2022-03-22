@@ -12,7 +12,7 @@
     header {justify-content: center;}
     .first-page {justify-content: center;}
     .m-l-no-break {display: none;}
-    .logo {margin:0; height: ; transform: scale(1.7);}
+    .logo {margin:0; transform: scale(1.7);}
 
     .headline-wrapper {flex-direction: row-reverse; justify-content: center; align-items: center; margin-right: 11rem; margin-top: 17rem; height:15rem;}
     .presentation-text-container {text-align: right; max-width: 30rem; margin-right: 20px;}
