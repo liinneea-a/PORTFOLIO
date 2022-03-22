@@ -9,4 +9,5 @@ Här hittar du lite information om vem jag är och vad jag sysslar med.
 
 Allt gott!
 
- [Demo](https://liinneea-a.github.io/PORTFOLIO/)
+ Netlify: [Demo](https://linneaalbertsson-portfolio.netlify.app/)
+ Github Pages: [Demo](https://liinneea-a.github.io/PORTFOLIO/)
