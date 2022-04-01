@@ -50,6 +50,10 @@ div.card-text > p {
   background-image: url(../img/calendar.png);
   background-size: cover;
 }
+.homestore {
+  background-image: url(../img/.homestore.png);
+  background-size: cover;
+}
 .portfolio-page-wrapper {
   background-color: var(--background-color);
   padding-bottom: 20px;

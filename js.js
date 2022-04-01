@@ -7,8 +7,6 @@ const lightModeToggle = document.querySelector("#toggleLightMode");
 
 /**  */
 function main() {
-  addEventListeners();
-  console.log(lightMode);
   /** Checks if lightmode is enabled when page loads */
   if (lightMode === "enabled") {
     enableLightMode();
@@ -20,11 +18,9 @@ function addEventListeners() {
   const menuBtn = document.getElementById("menuIcon");
   menuBtn.addEventListener("click", toggleDropdown);
   const desktopMenu = document.querySelector("header");
-  console.log(desktopMenu);
   document.body.addEventListener("wheel", () => {
     desktopMenu.classList.add("scroll");
     const aboutPage = document.getElementById("about");
-    console.log(aboutPage.scrollIntoView);
     if (aboutPage.scrollIntoView) {
       document.body.classList.add("clr-scroll-change");
     }
