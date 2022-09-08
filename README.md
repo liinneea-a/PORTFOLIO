@@ -1,7 +1,8 @@
 # PORTFOLIO
 Linnea Albertsson
 
-Hej och välkoment till mitt CV som front end developer!
+## Hej och välkoment till mitt portfolio!
+Detta är resultatet av en laboration jag har gjort i kursen "Javascript, Grundkurs".
 
 Här hittar du lite information om vem jag är och vad jag sysslar med. 
 
@@ -10,4 +11,4 @@ Här hittar du lite information om vem jag är och vad jag sysslar med.
 Allt gott!
 
  Netlify: [Demo](https://linneaalbertsson-portfolio.netlify.app/)
- Github Pages: [Demo](https://liinneea-a.github.io/PORTFOLIO/)
+
